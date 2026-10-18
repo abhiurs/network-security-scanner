@@ -146,6 +146,26 @@ After a scan, the project generates:
 
 The reports are overwritten by subsequent scans using the same filenames.
 
+## Screenshots
+
+### 1. Terminal Scan Results
+
+Shows the TCP port scan, Nmap service detection, scan duration, and risk summary.
+
+![Terminal scan results](screenshots/terminal-scan.png)
+
+### 2. JSON Report
+
+Shows the scan metadata, detected services, and risk summary in JSON format.
+
+![JSON scan report](screenshots/json-report.png)
+
+### 3. CSV Report
+
+Shows the detected service information and risk-analysis results in CSV format.
+
+![CSV scan report](screenshots/csv-report.png)
+
 ## Risk Analysis
 
 The current rule-based analyzer assigns the following labels:
